@@ -1,0 +1,26 @@
+package calculator;
+
+public class Functions {
+    public double num1;
+    public double num2;
+
+
+    public Functions(double num1, double num2){
+        this.num1 = num1;
+        this.num2 = num2;}
+
+    public double addition(){
+        return this.num1 + this.num2;
+    }
+    public double multiply(){
+        return this.num1 * this.num2;
+    }
+    public double divide() {
+        return this.num1 / this.num2;
+    }
+    public double subtract(){
+        return this.num1 - this.num2;
+    }
+    public int exponents(){
+        return (int) Math.exp(this.num2);}
+}
