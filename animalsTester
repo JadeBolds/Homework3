@@ -1,0 +1,12 @@
+package animals;
+
+public class AniamlTester {
+    public static void main(String[] args) {
+
+        Cats newCat = new Cats(4, "Tiger", true, "Mr.Meow");
+        System.out.println(newCat);
+
+        Dogs newDog = new Dogs(4, "Spots", false, "Woof Woman");
+        System.out.println(newDog);
+    }
+}
