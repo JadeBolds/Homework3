@@ -1,0 +1,28 @@
+package animals;
+
+public class Dogs {
+
+    public Integer limbs;
+    public String furColor;
+    public Boolean tongueScratchy;
+    public String name;
+
+    //construct a projex
+    public Dogs(Integer limbs, String furColor, Boolean tongueScratchy, String name){
+        this.limbs = limbs;
+        this.furColor = furColor;
+        this.tongueScratchy = tongueScratchy;
+        this.name = name;
+
+    }
+
+    @Override
+    public String toString() {
+        return "Dogs{" +
+                "limbs=" + limbs +
+                ", furColor='" + furColor + '\'' +
+                ", tongueScratchy=" + tongueScratchy +
+                ", name='" + name + '\'' +
+                '}';
+    }
+}
