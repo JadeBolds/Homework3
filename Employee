@@ -1,0 +1,34 @@
+package payroll;
+
+public class Employee {
+
+    //every triangle has these properties
+
+    double hoursWorked = 0.0;
+    double hourlyPay = 0.0;
+
+    //constructor to create objects with the new keyword inside main
+    public Employee(double hoursWorked, double hourlyPay){
+        this.hoursWorked = hoursWorked;
+        this.hourlyPay = hourlyPay;
+    }
+
+
+    //calculate the area of a triangle length * length
+    public double calcWeekly(){
+        return this.hourlyPay * this.hoursWorked;
+    }
+
+    //calculate the perimeter of a square length * 4
+    public double calcAnnual(){
+        return (this.hourlyPay * this.hoursWorked) * 52;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "hoursWorked=" + hoursWorked +
+                ", hourlyPay=" + hourlyPay +
+                '}';
+    }
+}
