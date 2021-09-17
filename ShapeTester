@@ -1,0 +1,19 @@
+package shapez;
+
+public class shapeTesters {
+    public static void main(String[] args) {
+        Square sq1 = new Square();
+        sq1.length = 10.0;
+        System.out.println(sq1.calcArea());
+        System.out.println(sq1.calcPer());
+
+        Triangle tri1 = new Triangle();
+        tri1.base = 20.0;
+        tri1.height = 15.0;
+        tri1.side1 = 10.0;
+        tri1.side2 = 17.0;
+        System.out.println(tri1.calcArea());
+        System.out.println(tri1.calcPer());
+
+    }
+}
