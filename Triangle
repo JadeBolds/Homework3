@@ -1,0 +1,29 @@
+package shapez;
+
+public class Triangle {
+    //every triangle has these properties
+
+    double base = 0.0;
+    double height = 0.0;
+    double side1 = 0.0;
+    double side2 = 0.0;
+
+    //constructor to create objects with the new keyword inside main
+    public Triangle(){ }
+
+
+    //calculate the area of a triangle
+    public double calcArea(){
+        return 0.5 * (this.base * this.height);
+    }
+
+    //calculate the perimeter
+    public double calcPer(){
+        return this.base + this.side1 + this.side2;
+    }
+    //string representation of the object
+
+    public static void main(String[] args){
+
+    }
+}
