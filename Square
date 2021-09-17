@@ -1,0 +1,27 @@
+package shapez;
+
+public class Square {
+    //every square has these properties
+
+        double length = 0.0;
+
+    //constructor to create objects with the new keyword inside main
+    public Square(){ }
+
+
+    //calculate the area of a square length * length
+    public double calcArea(){
+        return this.length * this.length;
+    }
+
+    //calculate the perimeter of a square length * 4
+    public double calcPer(){
+        return this.length * 4;
+    }
+
+    @Override
+    public String toString() {
+        return "Square{" +
+                "length=" + length +
+                '}';
+    }
