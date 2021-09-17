@@ -1,0 +1,14 @@
+package calculator;
+
+public class Abbacus {
+    public static void main(String[] args) {
+        Functions equalsButt = new Functions(8,2);
+        System.out.println(equalsButt.addition());
+        System.out.println(equalsButt.multiply());
+        System.out.println(equalsButt.subtract());
+        System.out.println(equalsButt.divide());
+        System.out.println(equalsButt.exponents());
+
+
+    }
+}
