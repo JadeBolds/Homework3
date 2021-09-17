@@ -1,0 +1,9 @@
+package payroll;
+
+public class PayRoll {
+    public static void main(String[] args) {
+        Employee squidward = new Employee(40.0, 20.0);
+        System.out.println(squidward.calcAnnual());
+        System.out.println(squidward.calcWeekly());
+    }
+}
